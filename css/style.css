@@ -1,0 +1,90 @@
+.LoginStyle {
+    background-image: url("../img/Background_Login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulokips > h1 {
+    font-family: 'Jura', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(240, 128, 128, 1);
+}
+
+.azul.claro-5 {
+    background: #e3f2fd;
+}
+
+.ImagenHome > img {
+	width: 30%;
+	height: auto;
+}
+
+#loginform {
+    background-color: rgb(255 255 255 / 0.95);
+    border: 1px solid #f7b9b9;
+}
+
+#signupform {
+    background-color: rgb(255 255 255 / 0.95);
+    border: 1px solid #f7b9b9;
+}
+
+.btn-login {
+    background-color: #f7b9b9;
+    font-weight: 600;
+}
+
+.LoginLogo > h3 {
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+
+.textnav > li > a {
+    font-family:;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.textlabel {
+	font-weight: 600;
+}
+
+.ImgVizualizar > img {
+	width: 100%;
+}
+
+.ImgPerfil > img {
+	width: 100%;
+}
+
+.file-upload-wrapper .card.card-body .file-upload-errors-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: rgba(243, 65, 65, .8);
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s linear .15s, opacity .15s linear;
+    -o-transition: visibility 0s linear .15s, opacity .15s linear;
+    transition: visibility 0s linear .15s, opacity .15s linear;
+}
+
+.file-upload-wrapper .card.card-body input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5;
+}
